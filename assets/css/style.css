@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.banner img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.navbar .active a, .navbar a:hover {
+    background-color: #ccc;
+
+}
+
+section img {
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-discription {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-text {
+    font-size: 17px;
+}
+
+.about-us-image img {
+    width: 400px;
+    height: 400px;
+    margin-left: 90px;
+}
+
+.title {
+    margin: 40px 0;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes img {
+    width: 300px;
+}
+
+.shoes {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.shoes-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-btt {
+    margin: 30px;
+    text-align: center;
+}
+
+.shoes-btt button {
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.shoes-btt button:hover {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
